@@ -1,31 +1,45 @@
 {
-  "posts": [
+  "projects": [
     {
       "id": 1,
-      "title": "Post 1"
-    },
-    {
-      "id": 2,
-      "title": "Post 2"
-    },
-    {
-      "id": 3,
-      "title": "Post 3"
+      "category": "CLS",
+      "tags": [
+        "친환경",
+        "힐링",
+        "식물"
+      ],
+      "title": "친환경 플랜테리어 클래스",
+      "meetings": [
+        {
+          "datetime": "2020-03-09T23:05:37+0000",
+          "duration": 3600,
+          "address": "서울시 서초구 서초동",
+          "spotName": "SG 스터디룸"
+        }
+      ],
+      "interval": 10,
+      "cycle": {
+        "unit": "DAY",
+        "number": 1
+      },
+      "descriptions": [
+        {
+          "subTitle": "평범한 일상을 특별하게",
+          "imageURL": "https://i.picsum.photos/id/213/300/300.jpg",
+          "content": "안녕하세요, 요리를 좋아하는 장도영입니다. 평소 좋아하는 레트로 분위기를 살려 애니메이션 뮤직비디오를 만들고 있습니다. 애니메이션 작업을 꾸준히 해오다보니 160만 조회수의 뮤직비디오 <달의 하루>를 포함해 많은 분들의 응원을 받게 되었어요."
+        }
+      ],
+      "minMember": 10,
+      "maxMember": 20,
+      "operationFee": 10000,
+      "totalFixedCost": 15000,
+      "individualFixedCost": 10000,
+      "deposit": 10000,
+      "messenger": {
+        "type": "KAKAO",
+        "url": "https://open.kakao.com/o/gsshoXJ"
+      },
+      "status": "PENDING"
     }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
